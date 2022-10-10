@@ -14,9 +14,12 @@
   "cSpell.words": [
     "autofix",
     "autorefs",
+    "codecov",
+    "codeql",
     "fontawesome",
     "isort",
     "linkedin",
+    "Mkdocs",
     "mkdocstrings",
     "mypy",
     "pytest",

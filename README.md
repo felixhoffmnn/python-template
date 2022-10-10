@@ -1,5 +1,5 @@
-| [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) | [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/) |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) | [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/) | [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/felixhoffmnn/python_template/main.svg)](https://results.pre-commit.ci/latest/github/felixhoffmnn/python_template/main) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 ---
 
@@ -8,6 +8,7 @@
 - [python_template](#python_template)
   - [Introduction](#introduction)
   - [Getting Started](#getting-started)
+  - [Tips & Tricks](#tips--tricks)
 
 ## Introduction
 
@@ -22,3 +23,11 @@ Excepteur ea eiusmod adipisicing dolor do qui mollit tempor. Tempor sit cillum i
 2. Run `poetry install` to install all dependencies
    - Afterwards, run `poetry shell` to activate the virtual environment
 3. Install the pre-commit hooks with `poetry run pre-commit install`
+
+## Tips & Tricks
+
+<!-- TODO: Add GitHub instructions for branch protection, versioning, and templates -->
+
+<!-- TODO: Instruction on codecov, pre-commit, and codeql -->
+
+<!-- TODO: Deployment methods for Mkdocs -->
