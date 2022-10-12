@@ -11,6 +11,7 @@
   - [Introduction](#introduction)
   - [Getting Started](#getting-started)
   - [Tips & Tricks](#tips--tricks)
+  - [Known Issues](#known-issues)
 
 ## Introduction
 
@@ -33,3 +34,8 @@ Excepteur ea eiusmod adipisicing dolor do qui mollit tempor. Tempor sit cillum i
 <!-- TODO: Instruction on codecov, pre-commit, and codeql -->
 
 <!-- TODO: Deployment methods for Mkdocs -->
+
+## Known Issues
+
+1. Poetry virtual environment is not shown in VSCode
+   - Visit https://crapts.org/2020/05/11/use-poetry-for-python-dependency-management-with-visual-studio-code/ for a solution
