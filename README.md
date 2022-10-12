@@ -1,3 +1,5 @@
+<!-- TODO: Add codecov badge -->
+
 | [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) | [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) | [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/downloads/release/python-3100/) | [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/felixhoffmnn/python_template/main.svg)](https://results.pre-commit.ci/latest/github/felixhoffmnn/python_template/main) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
@@ -9,6 +11,7 @@
   - [Introduction](#introduction)
   - [Getting Started](#getting-started)
   - [Tips & Tricks](#tips--tricks)
+  - [Known Issues](#known-issues)
 
 ## Introduction
 
@@ -31,3 +34,8 @@ Excepteur ea eiusmod adipisicing dolor do qui mollit tempor. Tempor sit cillum i
 <!-- TODO: Instruction on codecov, pre-commit, and codeql -->
 
 <!-- TODO: Deployment methods for Mkdocs -->
+
+## Known Issues
+
+1. Poetry virtual environment is not shown in VSCode
+   - Visit https://crapts.org/2020/05/11/use-poetry-for-python-dependency-management-with-visual-studio-code/ for a solution
