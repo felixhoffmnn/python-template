@@ -2,20 +2,30 @@
   "language": "en, de-de, lorem-ipsum, python",
   "ignorePaths": [".git", ".vscode"],
   "words": [
+    "abatilo",
+    "autobuild",
+    "Autobuild",
     "autofix",
     "autorefs",
+    "buildscript",
     "codecov",
     "codeql",
     "Codestyle",
+    "docstrings",
     "fontawesome",
+    "github",
     "isort",
     "linkedin",
+    "magiclink",
+    "pipx",
+    "materialx",
     "mkdocs",
     "Mkdocs",
     "mkdocstrings",
     "mypy",
-    "pipx",
+    "pymdownx",
     "pytest",
-    "pyupgrade"
+    "pyupgrade",
+    "unittests"
   ]
 }

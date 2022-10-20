@@ -9,27 +9,22 @@
     <img src="https://img.shields.io/github/license/felixhoffmnn/python_template"
       alt="License: MIT" />
   </a>
-
   <a href="https://www.python.org/downloads/release/python-3100/">
     <img src="https://img.shields.io/badge/python-3.10-blue.svg"
       alt="Python 3.10" />
   </a>
-
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"
       alt="Codestyle: Prettier" />
   </a>
-
   <!-- <a href="https://github.com/pre-commit/pre-commit">
     <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white"
       alt="pre-commit" />
   </a> -->
-
   <a href="https://results.pre-commit.ci/latest/github/felixhoffmnn/python_template/main">
     <img src="https://results.pre-commit.ci/badge/github/felixhoffmnn/python_template/main.svg"
       alt="pre-commit CI" />
   </a>
-
   <a href="https://codecov.io/gh/felixhoffmnn/python_template" >
     <img src="https://codecov.io/gh/felixhoffmnn/python_template/branch/main/graph/badge.svg?token=XV1JGI8GUM" alt="Code coverage"/>
   </a>

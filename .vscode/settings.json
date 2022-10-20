@@ -1,7 +1,4 @@
 {
-  "yaml.schemas": {
-    "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yaml"
-  },
   "gitmoji.outputType": "emoji",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -13,6 +10,10 @@
       "source.fixAll.unusedImports": false
     }
   },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  // "yaml.customTags": ["!!python/name:materialx.emoji.twemoji", "!!python/name:materialx.emoji.to_svg"],
   "python.formatting.provider": "black",
   "python.linting.mypyEnabled": true,
   "python.linting.pylintEnabled": true,

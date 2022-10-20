@@ -1,3 +1,3 @@
 # Hello World
 
-::: src..utils.hello_world
+::: src.utils.hello_world
