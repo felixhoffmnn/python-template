@@ -14,6 +14,7 @@
     "Mkdocs",
     "mkdocstrings",
     "mypy",
+    "pipx",
     "pytest",
     "pyupgrade"
   ]
