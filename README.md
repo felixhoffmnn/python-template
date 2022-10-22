@@ -2,7 +2,9 @@
   Python Template
 </h1>
 
-<!-- TODO: Add codecov badge -->
+<h4 align="center">
+  Excepteur ea eiusmod adipisicing dolor do qui mollit tempor.
+</h4>
 
 <div align="center">
   <a href="https://github.com/felixhoffmnn/python_template">
@@ -37,6 +39,8 @@ Excepteur ea eiusmod adipisicing dolor do qui mollit tempor. Tempor sit cillum i
 
 ## :handshake: Requirements
 
+> :arrow_up: Python 3.10 required.
+
 1. Install [Poetry](https://python-poetry.org/docs/#installation)
    - Poetry is a dependency manager for Python used in this project
 2. Run `poetry install` to install all dependencies
@@ -55,5 +59,9 @@ In nisi mollit proident ullamco in consectetur. Proident aute dolore labore comm
 
 ## :warning: Known Issues
 
-1. Poetry virtual environment is not shown in VSCode
-   - Visit https://crapts.org/2020/05/11/use-poetry-for-python-dependency-management-with-visual-studio-code/ for a solution
+1. Poetry environment is not shown in VSCode
+   - See https://crapts.org/2020/05/11/use-poetry-for-python-dependency-management-with-visual-studio-code/ for a solution
+
+## :memo: License
+
+This project is licensed under MIT.

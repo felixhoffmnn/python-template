@@ -14,6 +14,7 @@
     "editor.defaultFormatter": "tamasfe.even-better-toml"
   },
   // "yaml.customTags": ["!!python/name:materialx.emoji.twemoji", "!!python/name:materialx.emoji.to_svg"],
+  "python.languageServer": "Pylance",
   "python.formatting.provider": "black",
   "python.linting.mypyEnabled": true,
   "python.linting.pylintEnabled": true,

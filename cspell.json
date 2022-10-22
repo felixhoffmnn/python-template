@@ -24,6 +24,7 @@
     "mkdocstrings",
     "mypy",
     "pymdownx",
+    "pyproject",
     "pytest",
     "pyupgrade",
     "unittests"
