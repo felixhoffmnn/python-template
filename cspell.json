@@ -10,6 +10,7 @@
     "fontawesome",
     "isort",
     "linkedin",
+    "mkdocs",
     "Mkdocs",
     "mkdocstrings",
     "mypy",
