@@ -15,7 +15,12 @@ nav:
 # Plugins
 plugins:
   - search
+  - git-revision-date-localized:
+      fallback_to_build_date: true
   - autorefs
+  - mkdocs-jupyter:
+      include: ["*.ipynb"]
+      kernel_name: python3
   - mkdocstrings:
       handlers:
         python:
@@ -26,7 +31,9 @@ plugins:
             - https://mkdocstrings.github.io/griffe/objects.inv
           options:
             filters: ["!^__"]
-            docstring_style: google
+            docstring_style: numpy
+            docstring_section_style: table
+            merge_init_into_class: true
             show_root_heading: true
             show_source: yes
             show_root_full_path: no
@@ -72,6 +79,7 @@ theme:
 
   icon:
     logo: logo
+    repo: fontawesome/brands/github
 
   language: en
 
