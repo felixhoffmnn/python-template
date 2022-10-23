@@ -35,9 +35,11 @@ repos:
       - id: check-case-conflict
         name: check case conflict (check-case-conflict)
         always_run: true
+
       - id: check-merge-conflict
         name: check merge conflict (check-merge-conflict)
         always_run: true
+
       - id: check-yaml
         name: check yaml (check-yaml)
         exclude: mkdocs.yaml
@@ -75,6 +77,7 @@ repos:
         name: check types (mypy)
         stages: [commit, push]
         types: [python]
+        additional_dependencies: [types-requests]
         require_serial: true
 
   - repo: local
