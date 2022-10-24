@@ -4,7 +4,7 @@ site_description: Dolore fugiat ullamco voluptate incididunt voluptate voluptate
 site_author: Felix Hoffmann
 repo_name: python_template
 repo_url: https://github.com/felixhoffmnn/python_template
-watch: ["src", "docs", "tests", "mkdocs.yaml", "pyproject.toml", "README.md"]
+watch: ["python_template", "docs", "mkdocs.yaml", "pyproject.toml", "README.md"]
 
 # Navigation
 nav:
@@ -26,7 +26,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: [src]
+          paths: [python_template]
           import:
             - https://docs.python.org/3/objects.inv
             - https://mkdocstrings.github.io/objects.inv
