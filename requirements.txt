@@ -1490,6 +1490,6 @@ xattr==0.9.9 ; python_version >= "3.8" and python_version < "4.0" and sys_platfo
     --hash=sha256:ef3ca29cdaae9c47c625d84bb6c9046f7275cccde0ea805caa23ca58d3671f3f \
     --hash=sha256:efaaf0cb1ea8e9febb7baad301ae8cc9ad7a96fdfc5c6399d165e7a19e3e61ce \
     --hash=sha256:f19fa75ed1e9db86354efab29869cb2be6976d456bd7c89e67b118d5384a1d98
-zipp==3.9.0 ; python_version >= "3.8" and python_version < "3.10" \
-    --hash=sha256:3a7af91c3db40ec72dd9d154ae18e008c69efe8ca88dde4f9a731bb82fe2f9eb \
-    --hash=sha256:972cfa31bc2fedd3fa838a51e9bc7e64b7fb725a8c00e7431554311f180e9980
+zipp==3.10.0 ; python_version >= "3.8" and python_version < "3.10" \
+    --hash=sha256:4fcb6f278987a6605757302a6e40e896257570d11c51628968ccb2a47e80c6c1 \
+    --hash=sha256:7a7262fd930bd3e36c50b9a64897aec3fafff3dfdeec9623ae22b40e93f99bb8

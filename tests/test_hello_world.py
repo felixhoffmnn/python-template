@@ -1,4 +1,4 @@
-from src.utils.hello_world import hello_world
+from python_template.utils.hello_world import hello_world
 
 
 def test_hello_world():

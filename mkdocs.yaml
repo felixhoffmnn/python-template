@@ -10,7 +10,9 @@ watch: ["src", "docs", "tests", "mkdocs.yaml", "pyproject.toml", "README.md"]
 nav:
   - Overview: index.md
   - Documentation:
-      - documentation/hello_world.md
+      - Hello World: documentation/hello_world.md
+  - Examples:
+      - Test: examples/test.ipynb
 
 # Plugins
 plugins:

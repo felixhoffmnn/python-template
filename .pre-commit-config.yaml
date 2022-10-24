@@ -7,14 +7,14 @@ ci:
   autoupdate_branch: "main"
   autoupdate_commit_msg: "[pre-commit.ci] pre-commit autoupdate"
   autoupdate_schedule: quarterly
-  skip: [poetry-lock, poetry-export, pytest, pytest-cov]
+  skip: [poetry-lock, poetry-export, poetry-export-docs, pytest, pytest-cov]
 
 default_language_version:
   python: python3.10
 
 repos:
   - repo: https://github.com/python-poetry/poetry
-    rev: "1.2.1"
+    rev: "1.2.2" # Should be 1.2.2
     hooks:
       - id: poetry-check
         name: check poetry (poetry-check)
@@ -24,6 +24,7 @@ repos:
         name: lock poetry (poetry-lock)
         files: "pyproject.toml"
 
+      # TODO: Split dependencies into dev and prod
       - id: poetry-export
         name: export poetry normal and dev (poetry-export)
         args: ["--with=dev", "-f", "requirements.txt", "-o", "requirements.txt"]

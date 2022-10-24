@@ -13,7 +13,6 @@ classifiers = [
 ]
 license = "MIT"
 readme = "README.md"
-packages = [{ include = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -47,7 +46,7 @@ mkdocs-git-revision-date-localized-plugin = "^1.1.0"
 mkdocs-jupyter = "^0.22.0"
 
 [tool.mypy]
-mypy_path = "src"
+mypy_path = "python_template"
 check_untyped_defs = true
 disallow_any_generics = true
 ignore_missing_imports = true
@@ -63,22 +62,22 @@ no_implicit_reexport = true
 [tool.black]
 line-length = 120
 target-version = ["py38", "py39", "py310"]
-include = '\.pyi?$'
-exclude = '''
-/(
-    \.git
-  | \.mypy_cache
-  | \.tox
-  | venv
-  | \.venv
-  | _build
-  | buck-out
-  | build
-  | dist
-  | deploy
-  | presentations
-)/
-'''
+# include = '\.pyi?$'
+# exclude = '''
+# /(
+#     \.git
+#   | \.mypy_cache
+#   | \.tox
+#   | venv
+#   | \.venv
+#   | _build
+#   | buck-out
+#   | build
+#   | dist
+#   | deploy
+#   | presentations
+# )/
+# '''
 
 [tool.isort]
 profile = "black"
