@@ -24,15 +24,19 @@ repos:
         name: lock poetry (poetry-lock)
         files: "pyproject.toml"
 
-      # TODO: Split dependencies into dev and prod
       - id: poetry-export
         name: export poetry normal and dev (poetry-export)
-        args: ["--with=dev", "-f", "requirements.txt", "-o", "requirements.txt"]
+        args: ["-f", "requirements.txt", "-o", "requirements.txt"]
+        files: "poetry.lock"
+
+      - id: poetry-export
+        name: export poetry normal and dev (poetry-export)
+        args: ["--only=dev", "-f", "requirements.txt", "-o", "requirements_dev.txt"]
         files: "poetry.lock"
 
       - id: poetry-export
         name: export poetry docs (poetry-export)
-        args: ["--only=docs", "-f", "requirements.txt", "-o", "docs/requirements.txt"]
+        args: ["--only=docs", "-f", "requirements.txt", "-o", "docs/requirements_docs.txt"]
         files: "poetry.lock"
 
   - repo: https://github.com/pre-commit/pre-commit-hooks

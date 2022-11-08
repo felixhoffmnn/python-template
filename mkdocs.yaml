@@ -13,6 +13,7 @@ nav:
       - Hello World: documentation/hello_world.md
   - Examples:
       - Test: examples/test.ipynb
+  - License: license.md
 
 # Plugins
 plugins:
