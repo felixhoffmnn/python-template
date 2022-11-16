@@ -16,7 +16,7 @@
       alt="Python 3.10" />
   </a>
   <a href="https://github.com/prettier/prettier">
-    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"
+    <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat&logo=appveyor"
       alt="Codestyle: Prettier" />
   </a>
   <!-- <a href="https://github.com/pre-commit/pre-commit">
