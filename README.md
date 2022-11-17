@@ -39,7 +39,7 @@ Excepteur ea eiusmod adipisicing dolor do qui mollit tempor. Tempor sit cillum i
 
 ## :handshake: Requirements
 
-> :arrow_up: Python 3.10 required.
+> :arrow_up: Python >= 3.7 required.
 
 1. Install [Poetry](https://python-poetry.org/docs/#installation)
    - Poetry is a dependency manager for Python used in this project
