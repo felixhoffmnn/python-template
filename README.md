@@ -7,8 +7,8 @@
 </h4>
 
 <div align="center">
-  <a href="https://github.com/felixhoffmnn/python_template">
-    <img src="https://img.shields.io/github/license/felixhoffmnn/python_template"
+  <a href="https://github.com/felixhoffmnn/python-template">
+    <img src="https://img.shields.io/github/license/felixhoffmnn/python-template"
       alt="License: MIT" />
   </a>
   <a href="https://www.python.org/downloads/release/python-3100/">
@@ -23,12 +23,12 @@
     <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white"
       alt="pre-commit" />
   </a> -->
-  <a href="https://results.pre-commit.ci/latest/github/felixhoffmnn/python_template/main">
-    <img src="https://results.pre-commit.ci/badge/github/felixhoffmnn/python_template/main.svg"
+  <a href="https://results.pre-commit.ci/latest/github/felixhoffmnn/python-template/main">
+    <img src="https://results.pre-commit.ci/badge/github/felixhoffmnn/python-template/main.svg"
       alt="pre-commit CI" />
   </a>
-  <a href="https://codecov.io/gh/felixhoffmnn/python_template" >
-    <img src="https://codecov.io/gh/felixhoffmnn/python_template/branch/main/graph/badge.svg?token=XV1JGI8GUM" alt="Code coverage"/>
+  <a href="https://codecov.io/gh/felixhoffmnn/python-template" >
+    <img src="https://codecov.io/gh/felixhoffmnn/python-template/branch/main/graph/badge.svg?token=XV1JGI8GUM" alt="Code coverage"/>
   </a>
 </div>
 <br>
@@ -39,15 +39,13 @@ Excepteur ea eiusmod adipisicing dolor do qui mollit tempor. Tempor sit cillum i
 
 ## :handshake: Requirements
 
-> :arrow_up: Python >= 3.7 required.
-
 1. Install [Poetry](https://python-poetry.org/docs/#installation)
-   - Poetry is a dependency manager for Python used in this project
+    - Poetry is a dependency manager for Python used in this project
 2. Run `poetry install` to install all dependencies
-   - Afterwards, run `poetry shell` to activate the virtual environment
+    - Afterwards, run `poetry shell` to activate the virtual environment
 3. Install the pre-commit hooks with `poetry run pre-commit install`
 
-## :bulb: Tips & Tricks
+## :card_file_box: TODOs
 
 <!-- TODO: Add GitHub instructions for branch protection, versioning, and templates -->
 
@@ -55,13 +53,11 @@ Excepteur ea eiusmod adipisicing dolor do qui mollit tempor. Tempor sit cillum i
 
 <!-- TODO: Deployment methods for Mkdocs -->
 
-In nisi mollit proident ullamco in consectetur. Proident aute dolore labore commodo cillum velit qui qui mollit irure labore. Magna ipsum tempor ea eiusmod eu ex consectetur. Aliquip occaecat cupidatat reprehenderit elit excepteur labore voluptate exercitation cupidatat nostrud.
-
-## :warning: Known Issues
-
-1. Poetry environment is not shown in VSCode
-   - See https://crapts.org/2020/05/11/use-poetry-for-python-dependency-management-with-visual-studio-code/ for a solution
+-   [ ] Click `Use this template` and `Create new repository`
+-   [ ] Clone your new repository
+-   [ ] Rename the source folder `python_template` to your project name
+-   [ ] Change all appearances of `python-template` or `python_template` to your repository name
 
 ## :memo: License
 
-This project is licensed under MIT.
+This project is licensed under [MIT](LICENSE).

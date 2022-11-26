@@ -4,5 +4,13 @@
   "tabWidth": 2,
   "semi": false,
   "singleQuote": false,
-  "printWidth": 120
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": ["*.py", "*.ipynb", "*.md"],
+      "options": {
+        "tabWidth": 4
+      }
+    }
+  ]
 }

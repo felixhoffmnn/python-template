@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python_template"
+name = "Python Template"
 version = "0.1.1"
 description = "Dolore fugiat ullamco voluptate incididunt voluptate voluptate magna esse eiusmod velit deserunt cillum ut do."
 authors = ["Felix Hoffmann <felix.emmanuel.hoffmann@gmail.com>"]
@@ -41,6 +41,7 @@ mkdocs-autorefs = "^0.4.1"
 mkdocs-git-revision-date-localized-plugin = "^1.1.0"
 mkdocs-jupyter = { version = "^0.22.0", python = ">=3.7.1" }
 pymdown-extensions = "^9.8"
+mkdocs-mermaid2-plugin = "^0.6.0"
 
 [tool.mypy]
 mypy_path = "python_template"
