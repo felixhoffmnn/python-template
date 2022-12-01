@@ -59,23 +59,7 @@ no_implicit_reexport = true
 
 [tool.black]
 line-length = 120
-target-version = ["py38", "py39", "py310"]
-# include = '\.pyi?$'
-# exclude = '''
-# /(
-#     \.git
-#   | \.mypy_cache
-#   | \.tox
-#   | venv
-#   | \.venv
-#   | _build
-#   | buck-out
-#   | build
-#   | dist
-#   | deploy
-#   | presentations
-# )/
-# '''
+target-version = ["py37", "py38", "py39", "py310"]
 
 [tool.isort]
 profile = "black"
