@@ -27,6 +27,4 @@ jobs:
       - name: Install dependencies using Poetry
         run: poetry install
       - name: Run tests
-        run: poetry run pytest
-      - name: Check code coverage
-        run: poetry run pytest --cov --cov-fail-under=80
+        run: poetry run pytest --cov=python_template --cov-fail-under=80 --cov-report=term-missing
