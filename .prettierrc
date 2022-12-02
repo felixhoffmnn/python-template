@@ -7,7 +7,7 @@
   "printWidth": 120,
   "overrides": [
     {
-      "files": ["*.py", "*.ipynb", "*.md"],
+      "files": ["*.md", "*.mdx"],
       "options": {
         "tabWidth": 4
       }

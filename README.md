@@ -15,6 +15,9 @@
     <img src="https://img.shields.io/badge/python-3.10-blue.svg"
       alt="Python 3.10" />
   </a>
+  <a href="https://github.com/psf/black">
+    <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg">
+  </a>
   <a href="https://github.com/prettier/prettier">
     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat&logo=appveyor"
       alt="Codestyle: Prettier" />
