@@ -98,6 +98,11 @@ repos:
         stages: [commit, push]
         exclude_types: [python]
 
+  - repo: https://github.com/zricethezav/gitleaks
+    rev: v8.12.0
+    hooks:
+      - id: gitleaks
+
   - repo: https://github.com/asottile/pyupgrade
     rev: v3.0.0
     hooks:

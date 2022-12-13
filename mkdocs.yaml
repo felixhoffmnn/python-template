@@ -2,14 +2,14 @@
 site_name: Python Template
 site_description: Dolore fugiat ullamco voluptate incididunt voluptate voluptate magna esse eiusmod velit deserunt cillum ut do.
 site_author: Felix Hoffmann
-repo_name: felixhoffmnn/python_template
-repo_url: https://github.com/felixhoffmnn/python_template
+repo_name: felixhoffmnn/python-template
+repo_url: https://github.com/felixhoffmnn/python-template
 watch: ["python_template", "docs", "mkdocs.yaml", "pyproject.toml", "README.md"]
 
 # Navigation
 nav:
   - Overview: index.md
-  - Documentation:
+  - Code Reference:
       - Hello World: documentation/hello_world.md
   - Examples:
       - Test: examples/test.ipynb
