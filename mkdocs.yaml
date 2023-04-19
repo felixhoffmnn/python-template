@@ -11,8 +11,6 @@ nav:
   - Overview: index.md
   - Code Reference:
       - Hello World: documentation/hello_world.md
-  - Examples:
-      - Test: examples/test.ipynb
   - License: license.md
 
 # Plugins
@@ -21,9 +19,6 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
   - autorefs
-  - mkdocs-jupyter:
-      include: ["*.ipynb"]
-      kernel_name: python3
   - mkdocstrings:
       handlers:
         python:
