@@ -2,17 +2,15 @@
 site_name: Python Template
 site_description: Dolore fugiat ullamco voluptate incididunt voluptate voluptate magna esse eiusmod velit deserunt cillum ut do.
 site_author: Felix Hoffmann
-repo_name: python_template
-repo_url: https://github.com/felixhoffmnn/python_template
+repo_name: felixhoffmnn/python-template
+repo_url: https://github.com/felixhoffmnn/python-template
 watch: ["python_template", "docs", "mkdocs.yaml", "pyproject.toml", "README.md"]
 
 # Navigation
 nav:
   - Overview: index.md
-  - Documentation:
+  - Code Reference:
       - Hello World: documentation/hello_world.md
-  - Examples:
-      - Test: examples/test.ipynb
   - License: license.md
 
 # Plugins
@@ -21,9 +19,6 @@ plugins:
   - git-revision-date-localized:
       fallback_to_build_date: true
   - autorefs
-  - mkdocs-jupyter:
-      include: ["*.ipynb"]
-      kernel_name: python3
   - mkdocstrings:
       handlers:
         python:
@@ -37,7 +32,8 @@ plugins:
             docstring_style: numpy
             docstring_section_style: table
             merge_init_into_class: true
-            show_root_heading: true
+            show_root_heading: no
+            show_root_toc_entry: no
             show_source: yes
             show_root_full_path: no
 
@@ -102,3 +98,10 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format

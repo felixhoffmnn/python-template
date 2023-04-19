@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
-        python: ["3.8", "3.9", "3.10"]
+        python: ["3.10", "3.11"]
 
     steps:
       - name: Checkout
@@ -27,6 +27,4 @@ jobs:
       - name: Install dependencies using Poetry
         run: poetry install
       - name: Run tests
-        run: poetry run pytest
-      - name: Check code coverage
-        run: poetry run pytest --cov --cov-fail-under=80
+        run: poetry run pytest --cov=python_template --cov-fail-under=80 --cov-report=term-missing
